@@ -1,8 +1,9 @@
+
 syntax = "proto3";
 
-option csharp_namespace = "GrpcService1";
+option csharp_namespace = "GrpcOrderClient";
 
-package orders;
+package order;
 
 service OrderProcessing {
     rpc GetOrder (OrderRequest)
