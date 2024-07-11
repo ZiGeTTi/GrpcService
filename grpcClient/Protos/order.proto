@@ -1,7 +1,7 @@
 
 syntax = "proto3";
 
-option csharp_namespace = "GrpcOrderService";
+option csharp_namespace = "GrpcOrderClient";
 
 package order;
 
